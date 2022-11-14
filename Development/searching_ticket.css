@@ -1,0 +1,100 @@
+#searching-ticket-body{
+    width: 83.35%;
+    height: 300px;
+    padding-top: 100px;
+    padding-left: 250px;   
+}
+#searching-ticket-whole{
+    width: 80%;
+    height: 200px;
+    padding-left: 10px;
+    border: solid black 0.5px;
+    border-radius: 10px;
+}
+/* #searching-ticket-title{
+    width: 70%;
+    height: 80px;
+    background-color: red;
+} */
+
+#search-info{
+    width: 1000px;
+    height: 120px;
+}
+#search-from{
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+
+}
+#search-from-logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+#search-from-combo{
+    float: right;
+    margin-top: 10px;
+    width: 190px;
+    height: 40px;
+}
+#from-trip{
+    padding: 1em 4em;
+    background: #ffffff;
+    color: #727272;
+    appearance: none;
+    border: none;
+}
+#search-to{
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+    float: left;
+}
+#search-date{    
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+    float: left;
+}
+#search-button{
+    width: 230px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 15px;
+    border: solid 0.5px;
+    float: left;
+}
+#search-calendar{
+    width: 150px;
+    height: 40px;
+    margin-right: 50px;
+}
+
+.search-button {
+    background-color: #ff0800;
+    border: none;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 11px;
+}

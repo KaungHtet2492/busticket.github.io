@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <title></title>
+</head>
+<body>
+  <div class="full-screen-container">
+    <div class="login-container">
+      <h3 class="login-title">Login</h3>
+      <form method="POST" action="login_php.php">
+        <div class="input-group">
+          <label>User-Name</label>
+          <input type="text" class="form__input" name="username"  maxlength="20" required placeholder="Enter the Username"> 
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" class="form__input" name="pass" maxlength="20" required placeholder="Enter Password"> 
+        </div>
+        <button type="submit" class="login-button">Login</button>
+        <p>If you are not a member please sign up here. <a href="registration.php">Sign up</a></p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
